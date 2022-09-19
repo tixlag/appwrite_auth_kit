@@ -1,6 +1,9 @@
 # Appwrite Auth Kit
 
-A Flutter wrapper for Appwrite's Accounts service, makes it easy to use manage authentication and account features.
+Hello!
+Work at Appwrite 0.15.3 & Flutter sdk 7.0.0.
+
+Big thanks https://github.com/lohanidamodar/appwrite_auth_kit
 
 ## Getting Started
 This is really very easy to use
@@ -8,8 +11,14 @@ This is really very easy to use
 
 ```yaml
 dependencies:
-    appwrite_auth_kit: <version>
+    appwrite_auth_kit:
+        git:
+            url: https://github.com/tixlag/appwrite_auth_kit
 ```
+
+
+
+
 1. Wrap your MaterialApp `AppwriteAuthKit` passing a properly initialized Appwrite Client. Example below:
 
 ```dart
